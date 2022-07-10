@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "dZfRmekAY7I90Oqlitjb7BrqUL9fYCOQR6Zzp4clfYgPfNfR0Vz1ocG/rkUy5ITFxX4kgUpitnSzeY3tWiwFNA==",
+  "dgSpecHash": "APgallms1a1iBm9AZUBRbny9hm96l9D9TeS4SH4jV+/bzrleWHx51AwmDtlX37l/uHyjPkC5tRe5ULH7EzgUeQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\whitehat\\Desktop\\MYoutubeComApi\\MYoutubeComApi\\MYoutubeComApi.csproj",
+  "projectFilePath": "C:\\Users\\whitehat\\Desktop\\m_youtube_com\\MYoutubeComApi\\MYoutubeComApi\\MYoutubeComApi.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\whitehat\\.nuget\\packages\\bouncycastle.netcore\\1.8.5\\bouncycastle.netcore.1.8.5.nupkg.sha512",
     "C:\\Users\\whitehat\\.nuget\\packages\\dapper\\2.0.123\\dapper.2.0.123.nupkg.sha512",

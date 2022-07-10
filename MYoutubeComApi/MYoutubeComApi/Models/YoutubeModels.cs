@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using MySql.Data.MySqlClient;
 using Dapper;
 
@@ -19,7 +19,9 @@ namespace MYoutubeComApi.Models
 
         public IEnumerable<T> GetYoutubeList<T>()
         {
-            sql = @"
+            sql = @"SELECT *
+                           FROM youtube
+                           LEFT OUTER love ON youtube.id = love.id                   
             ";
 
             return conn.Query<T>(sql);
