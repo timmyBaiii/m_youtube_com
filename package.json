@@ -1,0 +1,39 @@
+{
+  "name": "m_youtube_com",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "serve": "vue-cli-service serve --mode development",
+    "build:dev": "vue-cli-service build --mode development",
+    "build:pro": "vue-cli-service build --mode production",
+    "lint:ext": "eslint . --ext .vue,.js,.ts",
+    "lint:fix": "eslint . --ext .vue,.js,.ts --fix",
+    "test:unit": "jest --clearCache && vue-cli-service test:unit"
+  },
+  "dependencies": {
+    "core-js": "^3.8.3",
+    "vue": "^3.2.13",
+    "vue-router": "^4.0.3",
+    "vuex": "^4.0.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.12.16",
+    "@babel/eslint-parser": "^7.12.16",
+    "@vue/cli-plugin-babel": "~5.0.0",
+    "@vue/cli-plugin-eslint": "~5.0.0",
+    "@vue/cli-plugin-router": "~5.0.0",
+    "@vue/cli-plugin-vuex": "~5.0.0",
+    "@vue/cli-service": "~5.0.0",
+    "autoprefixer": "^10.4.7",
+    "eslint": "^8.19.0",
+    "eslint-plugin-vue": "^9.2.0",
+    "postcss": "^8.4.14",
+    "pug": "^3.0.2",
+    "pug-plain-loader": "^1.1.0",
+    "sass": "^1.53.0",
+    "sass-loader": "^10.3.1",
+    "tailwindcss": "^3.1.5",
+    "vue-cli-plugin-tailwind": "~3.0.0",
+    "vue-loader": "^17.0.0"
+  }
+}

@@ -1,0 +1,11 @@
+import defaultSettings from '@/settings.js';
+
+const title = defaultSettings.title || 'vue base framework';
+
+export const getPageTitle = (pageTitle) => {
+    if (pageTitle) {
+        return `${pageTitle} - ${title}`;
+    }
+
+    return `${title}`;
+};
