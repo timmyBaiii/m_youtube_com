@@ -7,6 +7,9 @@
     <a href="https://tailwindcss.com/">
         <img src="https://img.shields.io/badge/tailwindcss-3.1.5-blue">
     </a>
+    <a href="https://docs.microsoft.com/zh-tw/aspnet/core/release-notes/aspnetcore-6.0?view=aspnetcore-6.0">
+        <img src="https://img.shields.io/badge/asp.net_core-6.0-blue">
+    </a>
 </p>
 
 ## 功能
