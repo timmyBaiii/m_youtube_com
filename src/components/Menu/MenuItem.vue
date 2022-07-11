@@ -22,8 +22,9 @@ export default {
     font-size: 16px;
     transition: 0.5s;
     
-    &:hover
+    &:hover {
         color: $color_pink;
+    }
 }
 
 .menuItem.subMenu {
