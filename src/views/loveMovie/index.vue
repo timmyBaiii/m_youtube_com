@@ -62,55 +62,67 @@ export default {
 };
 </script>
 
-<style lang="sass" scoped>
-@import '@/styles/colors.sass'
+<style lang="scss" scoped>
+@import '@/styles/colors.sass';
 
-*
-    // border: 1px solid
+.loveMovie {
+    .container {
+        padding: 20px 00px;
 
-.loveMovie
-    .container
-        padding: 20px 00px
-
-        .row
-            .col
-                .moveListGrid
-                    .moveListColumn
-                        display: flex
-                        align-items: center
-                        background-color: #f1f1f1
+        .row {
+            .col {
+                .moveListGrid {
+                    .moveListColumn {
+                        display: flex;
+                        align-items: center;
+                        background-color: #f1f1f1;
                         
-                        .number
-                            padding: 5px
+                        .number {
+                            padding: 5px;
+                        }
+                        
+                        .content {
+                            display: flex;
+                            justify-content: center;
+                            padding: 10px;
+                            border-bottom: 1px solid #d9d9d9;
 
-                        .content
-                            display: flex
-                            justify-content: center
-                            padding: 10px
-                            border-bottom: 1px solid #d9d9d9
+                            .movieImg {
+                                flex: none;
 
-                            .movieImg
-                                flex: none
+                                img {
+                                    display: block;
+                                    max-width: 150px;
+                                }
+                            }
 
-                                img
-                                    display: block
-                                    max-width: 150px
+                            .movieInfo {
+                                .title, .subTitle {
+                                    padding: 0px 10px;
+                                }
 
-                            .movieInfo
-                                .title, .subTitle
-                                    padding: 0px 10px
+                                .title {
+                                    font-size: 16px;
+                                    font-weight: 700;
+                                }
 
-                                .title
-                                    font-size: 16px
-                                    font-weight: 700
-
-                                .subTitle
-                                    font-size: 14px
-                                    font-weight: 400
+                                .subTitle {
+                                    font-size: 14px;
+                                    font-weight: 400;
+                                }
+                            }
+                        }
                             
-                        .btnRemove
-                            background-color: #1C5D99
-                            color: $color_white
-                            padding: 5px 20px
-                            border-radius: 6px
+                        .btnRemove {
+                            background-color: #1C5D99;
+                            color: $color_white;
+                            padding: 5px 20px;
+                            border-radius: 6px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
 </style>
