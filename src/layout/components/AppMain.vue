@@ -9,8 +9,9 @@ export default {
 };
 </script>
 
-<style lang="sass" scoped>
-.AppMain
-    height: 100vh
-    margin-top: 56px
+<style lang="scss" scoped>
+.AppMain {
+    height: 100vh;
+    margin-top: 56px;
+}
 </style>
