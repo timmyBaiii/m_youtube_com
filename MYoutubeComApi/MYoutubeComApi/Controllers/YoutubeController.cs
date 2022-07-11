@@ -1,4 +1,4 @@
-﻿using System.Net;
+using System.Net;
 using Microsoft.AspNetCore.Mvc;
 
 using MySql.Data.MySqlClient;
@@ -38,9 +38,10 @@ namespace MYoutubeComApi.Controllers
             }
             catch (Exception ex)
             {
+                result.isSuccess = false;
+                result.message = "資料傳輸錯誤";
                 return StatusCode((int)HttpStatusCode.InternalServerError, result);
             }
-
         }
     }
 }
