@@ -9,11 +9,12 @@ export default {
 };
 </script>
 
-<style lang="sass" scoped>
-@import '@/styles/colors.sass'
+<style lang="scss" scoped>
+@import '@/styles/colors.sass';
 
-.menu
+.menu {
     // width: 100%
-    margin: 0px
-    background-color: $color_white
+    margin: 0px;
+    background-color: $color_white;
+}
 </style>
