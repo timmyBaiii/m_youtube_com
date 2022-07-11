@@ -83,35 +83,43 @@ export default {
 };
 </script>
 
-<style lang="sass" scoped>
-.home
-    .container
-        padding: 20px 0px
+<style lang="scss" scoped>
+.home {
+    .container {
+        padding: 20px 0px;
 
-        .row
-            .col
-                .card
-                    padding: 10px
+        .row {
+            .col {
+                .card {
+                    padding: 10px;
 
-                    .info
-                        overflow: hidden
+                    .info {
+                        overflow: hidden;
 
-                        .youtubeLogo
-                            border-radius: 50%
-                            margin: 5px 0px
+                        .youtubeLogo {
+                            border-radius: 50%;
+                            margin: 5px 0px;
+                        }
 
-                        .movie
-                            width: 100%
-                            border-radius: 15px
+                        .movie {
+                            width: 100%;
+                            border-radius: 15px;
+                        }
 
-                        .love
-                            width: 20px
-                            float: right
-                            margin-top: 8px
-                            cursor: pointer
+                        .love {
+                            width: 20px;
+                            float: right;
+                            margin-top: 8px;
+                            cursor: pointer;
+                        }
 
-                        .title, .viewers
-                            padding: 5px
-
-
+                        .title, .viewers {
+                            padding: 5px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
 </style>
