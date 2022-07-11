@@ -33,40 +33,50 @@ export default {
 };
 </script>
 
-<style lang="sass" scoped>
-@import '@/styles/colors.sass'
+<style lang="scss" scoped>
+@import '@/styles/colors.sass';
 
-.navbar
-    position: fixed
-    top: 0
-    left: 0
-    width: 100%
-    z-index: 10
-    overflow: hidden
-    display: flex
-    justify-content: space-between
-    align-items: center
-    background-color: $color_white
-    padding: 15px
-    box-shadow: 0px 0px 15px lighten($color_black, 75)
+.navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 10;
+    overflow: hidden;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: $color_white;
+    padding: 15px;
+    box-shadow: 0px 0px 15px lighten($color_black, 75);
 
-    .container.mx-auto
-        .row
-            .col
-                .d_float_left
-                    float: left
+    .container.mx-auto {
+        .row {
+            .col {
+                .d_float_left {
+                    float: left;
+                }
 
-                .d_float_right
-                    float: right
+                .d_float_right {
+                    float: right;
 
-                    .menu
-                        .menu_item
-                            display: inline-block
+                    .menu {
+                        .menu_item {
+                            display: inline-block;
                             
-                            a
-                                display: block
-                                padding: 0px 10px
+                            a {
+                                display: block;
+                                padding: 0px 10px;
+                            }
 
-                            a.router-link-active
-                                color: $color_blue
+                            a.router-link-active {
+                                color: $color_blue;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}                               
 </style>
