@@ -21,7 +21,7 @@ namespace MYoutubeComApi.Models
         {
             sql = @"SELECT *
                            FROM youtube
-                           LEFT OUTER love ON youtube.id = love.id                   
+                           LEFT OUTER love ON youtube.id = love.id
             ";
 
             return conn.Query<T>(sql);
