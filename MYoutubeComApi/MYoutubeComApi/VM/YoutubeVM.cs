@@ -5,7 +5,7 @@ namespace MYoutubeComApi.VM
         /// <summary>
         /// 影片 id
         /// </summary>
-        public int id { get; set; }
+        public int movieId { get; set; }
 
         /// <summary>
         /// 影片標題
