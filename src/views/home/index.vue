@@ -26,19 +26,13 @@ div(class="home")
 </template>
 
 <script>
-import { computed, onMounted, ref } from 'vue';
+import { computed } from 'vue';
 import { useStore } from 'vuex';
 
 export default {
     name: 'home',
     setup() {
         const store = useStore();
-
-        const lovePhoto = ref('');
-
-        onMounted(() => {
-            lovePhoto.value = require('@/assets/png/redLove.png');
-        });
 
         const handleMouseEnterLove = (item, e) => {
             if (item.love === true) {
@@ -70,8 +64,6 @@ export default {
         });
 
         return {
-            // data
-            lovePhoto,
             // methods
             handleMouseEnterLove,
             handleMouseLeaveLove,
